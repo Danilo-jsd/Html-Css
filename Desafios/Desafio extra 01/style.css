@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+
+:root{
+    --cor1:#2A39C0;
+    --cor2:#394396;
+    --cor3:#0C22EA;
+    --cor4:#3B406B;
+    --cor5:#2E3041;
+    --cor6:#2D2E33;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: "Play", sans-serif;
+    background-color: var(--cor6);
+}
+header > h1{
+
+    font-size: 2.3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+}
+header{
+    background-image: linear-gradient(to right, var(--cor3), var(--cor5));
+    text-align: center;
+    border-radius: 0px 0px 3px 3px;
+    padding: 13px;
+}
+header  p{
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+}
+ header nav{
+    text-align: left;
+ }
+nav a:hover{
+    color: white;
+    transition-duration: 0.5s;
+    background-color: var(--cor4);
+    border-radius: 10px;
+}
+header a{
+    color: #1d1c1c;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;  
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+main strong{
+    font-weight: bolder;
+    color: var(--cor4);
+}
+
+main p{
+    text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 0px;
+    line-height: 2em;
+    font-size: 1em;
+    text-align: justify;
+
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover{
+    text-decoration: underline;
+    color: #1d1c1c; 
+    background-color: #1b31f7;
+}
+aside{
+    background-color: var(--cor4);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.285);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    text-decoration: none; 
+    list-style-type: '\2714\00A0\00A0';
+}
+aside h3{
+    background-color: var(--cor3);
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+}
+footer p{
+    text-align: center;   
+     background-image:linear-gradient(to right, var(--cor3), var(--cor5));
+     border-radius: 5px 5px 0px 0px;
+     margin-top: 10px;
+     font-weight: bold;
+     
+     
+}
+
+
+
+
