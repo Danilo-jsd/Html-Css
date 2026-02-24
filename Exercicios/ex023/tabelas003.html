@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            position: relative;
+        }
+        caption{
+            background-color: gray;
+            padding: 8px;
+            font-weight: bolder;
+            font-size: 1em;
+        }
+        thead,tfoot{
+            background-color: gray;
+            font-weight: bold;
+        }
+
+        td,th{
+            border: solid 1px black;
+            padding: 8px;
+        }
+        tbody > tr:nth-child(odd){
+            background-color:lightgray;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+
+
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Maiores Arremessadores de 3 Pontos</caption>
+        <thead>
+        <tr>
+            <th scope="col">Rank</th>
+            <th scope="col">Jogador</th>
+            <th scope="col">Total de 3PTM</th>
+        </tr>    
+        </thead>
+        <tbody>
+    
+        <tr>
+            <td>1</td>
+            <td>Stephen Curry</td>
+            <td>4233</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>James Harden</td>
+            <td>3323</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ray Allen</td>
+            <td>2973</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Klay Thompson</td>
+            <td>2840</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Damian Lillard</td>
+            <td>2804</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Lebron James</td>
+            <td>2611</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Reggie Miller</td>
+            <td>2560</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Kyle Korver</td>
+            <td>2450</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Paul George</td>
+            <td>2415</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Kevin Durant</td>
+            <td>2309</td>
+        </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td scope="row" class="total">Total</td>
+                <td scope="row"><strong>28.518</strong></td>
+                
+            </tr>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>
