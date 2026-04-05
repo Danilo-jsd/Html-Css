@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: red;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-weight: bolder;
+    color: var(--cor1);
+    text-align: left;
+    background: linear-gradient( to right, #c39dc783, #F6EDE2);
+    padding: 20px;
+}
+header h1{
+    padding: 10px;
+}
+header a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 7px;
+    border-radius: 60%;
+    padding: 8px;
+}
+
+a#lg{
+    background-color:  var(--cor1);
+    color: white;
+    border-radius: 60%;
+}
+nav a:hover#lg{
+    background-color: rgba(30, 44, 10, 0.597);
+}
+
+nav a:hover{
+    color: white;
+    
+    
+    background-color: var(--cor1);
+    border: solid 2px rgba(0, 0, 0, 0.449);
+    transform:translate(-3px, -3px);
+    transition: transform 0.2s;
+    transition: border 0.2s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
+}
+
+img{
+    padding-top: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.504);
+}
+
+main{
+    margin: 45px;
+    padding: 12px;
+    color: #53240C;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main a{
+    color: var(--cor1);
+    text-decoration: none;
+}
+main p{
+    padding: 15px;
+}
+main li,h2{
+    padding: 8px;
+}
+
+section{
+   color: #53240C; 
+   margin: 45px;
+}
+section img{
+    margin: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 5px;
+}
+section li{
+   margin: 5px 5px;
+   padding-left: 10px;
+   color: #53240C;
+}
+aside{
+    padding: 10px;
+    margin: 10px;
+    background-color: #F7EFE4;
+    color: #53240C;
+}
+div p{
+    margin: 7px;
+}
+footer{
+    background: linear-gradient( to right, #c39dc783, #F6EDE2);
+    text-align: center;
+}

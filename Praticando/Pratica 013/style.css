@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #a52a2a;
+   text-align: center;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.526);
+}
+main{
+    display: flex;
+    flex: 1;
+}
+section{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
