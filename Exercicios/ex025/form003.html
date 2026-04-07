@@ -34,6 +34,39 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
-    
+    <h2>Formulário</h2>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <p>
+            <label for="inick">Nome:</label>
+            <input type="text" name="nick" id="inick" required autocomplete="username" placeholder="Nome de Usuário" minlength="5" maxlength="15" size="15" >
+        </p>
+
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" required autocomplete="cc-number" min="1" max="10" placeholder="0 a 10" size="3" step="0.1">
+        </p>
+
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required placeholder="Email" minlength="5" maxlength="60">
+        </p>
+
+        <p>
+            <label for="ipl">Período Letivo</label>
+            <input type="month" name="pl" id="ipl" required value="2026-05">
+        </p>
+        <p>
+            <label for="ida">Data</label>
+            <input type="date" name="da" id="ida" required>
+        </p>
+        <label for="ihr">Hora</label>
+        <input type="time" name="hr" id="ihr"
+        required>
+
+        <p>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>

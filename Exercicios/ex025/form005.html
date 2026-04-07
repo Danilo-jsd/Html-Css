@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sx" id="isxmas"> <label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sx" id="isxfem"> <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="nata"
+            id="inata"> <label for="inata">Natação</label><br>
+            <input type="checkbox" name="ten" id="iten"> <label for="iten">Ténis</label>
+        </fieldset>
+        <fieldset>
+            <legend>Filmes Favoritos</legend>
+            <input type="checkbox" name="sev" id="isev"> <label for="isev">Seven</label><br>
+            <input type="checkbox" name="blow" id="iblow"> <label for="iblow">Blow out</label><br>
+            <input type="checkbox" name="lin" id="ilin"> <label for="ilin">Uma linda mulher</label><br>
+            <input type="checkbox" name="tdk"
+            id="itdk"> <label for="itdk">O cavaleiro das Trevas</label>
+         </fieldset>
+         <fieldset>
+            <legend>Gosta de Cinema</legend>
+            <input type="radio" name="cin" id="icin"><label for="icin">Sim</label>
+            <input type="radio" name="cin" id="ina"><label for="ina">Não</label>
+         </fieldset>
+         <label for="iname">Nome:</label>
+         <input type="text" name="name" id="iname" required placeholder="Nome Completo" maxlength="30" minlength="3" autocomplete="username" size="15" ><br>
+         <label for="ihor">Hora:</label>
+         <input type="time" name="hor" id="ihor" placeholder="Hora" required>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
