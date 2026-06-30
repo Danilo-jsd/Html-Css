@@ -1,62 +1,61 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 header{
-    background-color: grey;
-    padding: 10px;
+    background-color: gray;
+    padding: 5px;
 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
     
-}
-header > h1{
-    color: white;
-    flex: 0 0 200px;
-
 }
 
 header > nav{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+  
 }
-
-header> nav > a{
-    text-decoration: none;
+header > nav > a{
+    background-color: black;
     color: white;
     text-align: center;
-    background-color: black;
+    padding: 8px;
+    margin: 5px;
     border-radius: 5px;
-    padding: 5px;
-    margin: 2px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.226);
+    text-decoration: none;
+}
+header > h1{
+    color: white;
+    flex-basis: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.405);
+    
 }
 
 header > nav > a:hover{
-    background-color: white;
     color: black;
-    transition: background-color .5s;
+    background-color: white;
+    transition: background-color 0.4s
 }
 
 body{
-    background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    background-color: lightgray;
     height: 100vh;
     width: 100vw;
 }
+
 main{
     background-color: white;
-    margin: 10px;
-    padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.327);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.371);
 }
