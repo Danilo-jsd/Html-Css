@@ -1,6 +1,25 @@
 @charset "UTF-8";
 
-section.cont{ 
+header{
     display: flex;
-    flex-flow: column;
+    height: auto;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+header > nav{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+section.cont1{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.text{
+    width: 70%;
 }

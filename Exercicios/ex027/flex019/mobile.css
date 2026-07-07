@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: auto;
+}
+
+header > nav{
+    display: flex;
+    flex-direction: column;
+}
+
+section.princ{
+    display: flex;
+    flex-flow: column;
+
+}
+
+section.secund{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    
+}
