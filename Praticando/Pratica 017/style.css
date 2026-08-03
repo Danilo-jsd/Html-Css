@@ -31,7 +31,7 @@ header{
 
 header h2{
     color: var(--texto);
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.536);
 
 }
 nav#menu ul{
@@ -65,28 +65,60 @@ nav#menu a.linkdes:hover{
 }
 section#principal{
     display: flex;
-    justify-content: space-around;
-    
+    height: 300px;
     gap: 20px;
     position: relative;
    
 }
 
+
+
 section#principal .info{
     display: flex;
     flex-direction: column;
-    position: absolute;
-    right: 58%;
-    top: 75%;
-    height: 80px;
-    border: 2px solid black;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-section#principal img{
-    position: absolute;
-    left: 55%;
-    top: 50%;
-    width: 25%;
+
+.info h1{
+    color: var(--detalhes);
+    font-size: 2.7em;
+   
+    margin-bottom: 10px;
+}
+
+.info h1 span{
+    color: var(--texto);
+}
+
+.info h2{
+    font-size: 2em;
+    color: var(--texto);
+}
+
+.info input[type="button"]{
+    align-self: center;
+    color: white;
+    background-color: var(--texto-detalhes);
+    border-radius: 50px;
+    padding: 9px;
+    border: 2px solid var(--texto-detalhes);
+}
+
+section#principal .foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
     
+    
+}
+section#principal .foto img{
+    width:40%;
 }
 
