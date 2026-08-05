@@ -1,0 +1,53 @@
+/* tablet.css */
+
+:root{
+    --fundo-principal: #1F2533 ;
+    --fundo-card: #141823;
+    --texto: #F7F8FC;
+    --detalhes: #1EA3C6;
+    --texto-detalhes: #0672DF;
+    --degrade1: #102338;
+    --degrade2: #141822;
+    --degrade3: #0E0E0E;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header h2{
+    margin-bottom: 20px;
+}
+nav#menu ul{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+
+nav#menu a.linkdes{
+    color: var(--detalhes);
+    background-color: var(--fundo-principal)
+}
+
+section#principal{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+section#principal .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+footer#fundo .detalhes{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    text-align: center;
+}
