@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/50258ebd75.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="info">
+        <h1>Formúlario de Contato</h1>
+        <p>Por favor, forneça seu nome, endereço<br>de email e número de telofone.</p>
+        </div>
+    </header>
+    <main>
+        <section id="form">
+            <form action="index.html" autocomplete="off">
+               <p>
+                   <label for="ifirst"><i class="fa-solid fa-circle-user fa-2xl" style="color: rgb(116, 192, 252);"></i></label>
+                   <input type="text" name="nome" id="ifirst">
+               </p>
+
+               <p>
+                <label for="ilast"><i class="fa-solid fa-circle-user fa-2xl" style="color: rgb(116, 192, 252);"></i></label>
+                <input type="text" name="sobrenome" id="ilast">
+               </p>
+                </form>
+            </section>
+            
+               <section id="dt">
+                <p>
+                <label for="iemail"><i class="fa-solid fa-envelope fa-2xl" style="color: rgb(116, 192, 252);"></i></label>
+                <input type="email" name="email" id="iemail">
+               </p>
+
+               <p>
+                <label for="inumber"><i class="fa-solid fa-phone fa-2xl" style="color: rgb(116, 192, 252);"></i></label>
+                <input type="number" name="numero" id="inumber">
+               </p>
+        
+               </section>
+           <article>
+            <p>
+                    <label for="imessage">Mensagem</label>
+                    <textarea name="msg" id="imessage" cols="10" rows="8"></textarea>
+                   </p>
+                   <p><label for="ienviar">Enviar</label>
+                   <input type="submit" name="Enviar" id="ienviar">
+           </article>
+    </main>
+</body>
+</html>

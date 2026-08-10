@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header div#info{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#info p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+main{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    
+}
+section#form{
+    display: flex;
+    justify-content: center;
+    
+    grid-column: 1;
+}
+input{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 6px;
+}
+section#dt{
+    grid-column: 2;
+    
+}
+
+article{
+    grid-row: 3;
+    
+}
+
