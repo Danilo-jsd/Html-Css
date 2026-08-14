@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
-body{
-    background-color: ;
+div#info h1{
+    font-size: 1.5em;
+}
+
+div#info p{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section#form input{
+    padding-right: 10px;
+    margin-right: 10px;
+    grid-column: 1;
+}
+
+section#dt{
+    grid-column: 1;
+}
+input{
+    width: 300px;
+}
+
+
+article #imessage{
+    width: 438px;
+    height: 88px;
+    
 }
