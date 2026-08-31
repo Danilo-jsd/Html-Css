@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: grid;
+    gap: 10px;
+    
+}
+
+header{
+   
+    background-color: darkblue;
+    justify-self: center;
+}
+
+aside{
+    background-color: darkgreen;
+    grid-row: 4;
+}
+
+article{ 
+   
+    background-color: darkturquoise;
+
+}
+
+section{
+  
+    background-color: darkgrey;
+   
+}
+
+footer{ 
+  
+    background-color: darkmagenta
+}

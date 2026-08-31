@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('imagens/x-men\ blue.jpg') center top no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+section#principal{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+
+.conteudo{
+    width: 30%;
+}
+.conteudo img{
+    width: 45%;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.458);
+}
+
+.conteudo h1{
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.415);
+}
+.conteudo p{
+    padding: 5px;
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.467);
+}
+.conteudo p, 
+.conteudo h1{
+   text-align: center;
+   padding: 5px;
+}
+section.secundario{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.capas{
+    width: 30%;
+}
+
+div.capas img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+}
+div.capas img:hover{
+    border: 2px solid white;
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+div.capas h2{
+    padding: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.453);
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+
+}
