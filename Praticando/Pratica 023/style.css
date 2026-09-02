@@ -41,7 +41,7 @@ section#principal{
 .conteudo p{
     padding: 5px;
     font-size: 1.2em;
-    color: black;
+    color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.467);
 }
 .conteudo p, 
@@ -73,6 +73,7 @@ div.capas img:hover{
 }
 div.capas h2{
     padding: 10px;
+    color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
 }
 
@@ -90,6 +91,4 @@ footer p{
 footer a{
     text-decoration: none;
     color: white;
-    
-
 }
