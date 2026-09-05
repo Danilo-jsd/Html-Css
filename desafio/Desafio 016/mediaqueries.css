@@ -9,7 +9,7 @@
         height: 280px
     }
     section#login > div#imagem{
-
+        
         float: left;
         width: 30%;
         height: 100%;
@@ -49,10 +49,12 @@
         background: linear-gradient(to right, #1C1A0E, #231304);
     }
     section#login{
+        
         width:95vw;
         height: 350px
     }
     section#login > div#imagem{
+        background-position: right center;
         float: right;
         width: 50%;
         height: 350px
@@ -77,9 +79,18 @@
     }
 
     div#formulario input[type="submit"]{
-        margin-left: 12%;
+        margin-left: 7%;
     }
     a.botao{
-        margin-left: 12%;
+        margin-left: 7%;
     }
+
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   
 }
