@@ -26,16 +26,25 @@
         <section class="form">
             <div class="formulario">
                 <form action="index.html" method="post" autocomplete="on">
-                    <label for="Localização"></label>
-                    <input type="text" placeholder="Perto de você">
-                    <label for="check-in"></label>
-                    <input type="text" placeholder="Insira as datas">
-                    <label for="Checkout"></label>
-                    <input type="text" placeholder="Checkout">
-                    <label for="Adultos"></label>
-                    <input type="number" placeholder="2" maxlength="16" min="1">
-                    <label for="Crianças"></label>
-                    <input type="number" placeholder="0" maxlength="6" minlength="0">
+                    <div class="campo">
+                        <label for="Localização">Localização</label>
+                        <input class="comum" type="text" placeholder="Perto de você" required  >
+                    </div>
+
+                    <div class="linha">
+                        <label for="check-in"></label>
+                        <input class="lado" type="text" placeholder="Insira as datas" required>
+                        <label for="checkout"></label>
+                        <input id="d" class="lado" type="text" placeholder="Checkout" required>
+                    </div>
+
+                    <div class="linha">
+                    
+                        <input class="lado" type="number" placeholder="2" max="16" min="1" required>
+                        
+                        <input id="dd" class="lado" type="number" placeholder="0" max="6" min="0" required>
+                    </div>
+
                     <input type="submit" name="buscar" id="ibuscar">
                 </form>
             </div>

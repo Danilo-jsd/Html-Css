@@ -57,12 +57,76 @@ div.ext p{
     margin-top: 8px;
     font-size: 1.04em;
 }
-
-div.formulario{
+form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 8px;
     
 }
 
+.comum{
+    width: 420px;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.574);
+}
+
+.campo{
+    position: relative;
+}
+
+.campo label{
+    position: absolute;
+    top: 20px;
+    left: 11px;
+    font-size: 12px;
+}
+
+.linha{
+    display: flex;
+    position: relative;
+}
+
+.linha label{
+   
+}
+
+.linha input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #13060684;  
+}
+
+.linha input:first-child{
+    border-radius: 8px 0px 0px 8px;
+    border-right: none;
+}
+
+.linha input:last-child{
+    border-radius: 0px 8px 8px 0px;
+}
+
+.lado{
+    width: 202px;
+    height: 60px;
+    border-radius: 10px;
+    gap: 0px;
+}
+
+#d{
+    width: 219px;
+    margin-right: 20px;
+    
+}
+
+#dd{
+    width: 219px;
+    margin-right: 20px;
+    
+}
 
