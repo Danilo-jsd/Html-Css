@@ -24,10 +24,6 @@ header{
     border: 1px solid #e2dcdc84;
 }
 
-header h1{
-    color: #FF385C;
-}
-
 header a{
     color: black;
     font-size: 1em;
@@ -76,24 +72,10 @@ form{
     border: 1px solid rgba(0, 0, 0, 0.574);
 }
 
-.campo{
-    position: relative;
-}
 
-.campo label{
-    position: absolute;
-    top: 20px;
-    left: 11px;
-    font-size: 12px;
-}
 
 .linha{
     display: flex;
-    position: relative;
-}
-
-.linha label{
-   
 }
 
 .linha input{
@@ -128,5 +110,28 @@ form{
     width: 219px;
     margin-right: 20px;
     
+}
+
+input#ibuscar{
+    width: 420px;
+    margin-top: 9px;
+    margin-right: 20px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #E01761;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.informaçoes{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+
 }
 

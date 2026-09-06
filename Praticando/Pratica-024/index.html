@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danilo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagens/halloween.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/airbnb.png" type="image/x-icon">
 </head>
 <body>
     <header>
-            <h1>airbnb</h1>
+            <h1>
+                <img src="imagens/airbnb logo.png" alt="airbnb" style="width: 40px; height: 35px;">
+            </h1>
             <a href="#" target="_blank">Anuncie no Airbnb</a>
     </header>
     <main>
@@ -27,28 +29,40 @@
             <div class="formulario">
                 <form action="index.html" method="post" autocomplete="on">
                     <div class="campo">
-                        <label for="Localização">Localização</label>
-                        <input class="comum" type="text" placeholder="Perto de você" required  >
+                        <label for="Localização"></label>
+                        <input class="comum" type="text" placeholder="Localização" required  >
                     </div>
 
                     <div class="linha">
                         <label for="check-in"></label>
-                        <input class="lado" type="text" placeholder="Insira as datas" required>
+                        <input class="lado" type="date" placeholder="Check-in" required>
                         <label for="checkout"></label>
-                        <input id="d" class="lado" type="text" placeholder="Checkout" required>
+                        <input id="d" class="lado" type="date" placeholder="Checkout" required>
                     </div>
 
                     <div class="linha">
                     
-                        <input class="lado" type="number" placeholder="2" max="16" min="1" required>
+                        <input class="lado" type="number" placeholder="Adultos" max="16" min="1" required>
                         
-                        <input id="dd" class="lado" type="number" placeholder="0" max="6" min="0" required>
+                        <input id="dd" class="lado" type="number" placeholder="Crianças" max="6" min="0">
                     </div>
 
-                    <input type="submit" name="buscar" id="ibuscar">
+                    <input type="submit" value="Buscar" placeholder="Buscar"name="buscar" id="ibuscar">
                 </form>
             </div>
         </section>
+        <article class="info">
+            <div class="informaçoes">
+                <h3>As vantagens da flexibilidade</h3>
+                <p>As acomodações com cancelamento flexível <br> facilitam a remarcação de reservas se seus planos <br> mudarem.</p>
+
+                <h3>Mais de 7 milhões de anúncios ativos</h3>
+                <p>Junte-se a mais de 1 bilhão de hóspedes que <br> encontraram estadias em mais de 220 países e <br> destinos.</p>
+
+                <h3>Mais de 100 filtros para estadias personalizadas</h3>
+                <p>Encontre a acomodação perfeita escolhendo a faixa <br> de preço, o número de quartos e outras <br> comodidades importantes.</p>
+            </div>
+        </article>
     </main>
     
 </body>
