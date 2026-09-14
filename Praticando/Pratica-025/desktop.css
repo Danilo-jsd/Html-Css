@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: cornflowerblue;
+}
+
+section{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+
+}
+h1{
+    color: brown;
+}

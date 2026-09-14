@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: darkmagenta;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+h1{
+    color: navy;
+}
