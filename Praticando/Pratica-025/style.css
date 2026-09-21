@@ -5,35 +5,265 @@
     padding: 0px;
 }
 
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F9F9F9;
+}
+
 #container{
     display: grid;
-     
+    grid-template-areas: 
+    'header header header'
+    'aside article section'
+    'footer footer footer'
+    ;
     gap: 10px;
+    grid-auto-rows: 200px 100px;
 
 }  
 
 header{
-    
-    background-color: blueviolet;
-    grid-column: 2;
+    display: flex;
+    grid-area: header;
+    height: 55px;
 }
+
+.opcoes{
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    gap: 20px;
+    height: 30px;
+}
+
+#primeiro{
+    color: #0669DE;
+}
+
+#segundo{
+    color: #C4170C;
+}
+
+#terceiro{
+    color: #06AA48;
+}
+
+#quarto{
+    color: #FF6C00;
+}
+
+#quinto{
+    color:#FB0334 ;
+}
+
+#sexto{
+    color:#C4170C ;
+}
+
+#setimo{
+    color:#000000 ;
+}   
+
+#oitavo{
+    color:#1E4C9A ;
+}
+
+#nono{
+    color:#006767 ;
+}
+
+#primeiro:hover{
+    border-bottom: 2px solid #0669DE;
+}
+
+#segundo:hover{
+    border-bottom: 2px solid #C4170C;
+}
+
+#terceiro:hover{
+    border-bottom: 2px solid #06AA48;
+}
+
+#quarto:hover{
+    border-bottom: 2px solid #FF6C00;
+}
+
+#quinto:hover{
+    border-bottom: 2px solid #FB0334;
+}
+
+#sexto:hover{
+    border-bottom: 2px solid #C4170C;
+}
+
+#setimo:hover{
+    border-bottom: 2px solid #000000;
+}   
+
+#oitavo:hover{
+    border-bottom: 2px solid #1E4C9A;
+}
+
+#nono:hover{
+    border-bottom: 2px solid #006767;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.barra-principal{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 0 25px;
+    height: 75px;
+    margin-top: 0px;
+    background-color: #C4170C;
+    
+}
+
+div.menu{
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.logo a{
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+.acoes{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.acoes input {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #A7140A;
+    border: 1px solid #A7140A;
+    width: 180px;
+}
+
+button {
+    background-color: #A7140A;
+    border: 1px solid #A7140A;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.eleicoes a{
+    display: flex;
+    color: red;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 50px;
+    height: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #F1F2F3;
+}
+
+.eleicoes a:hover{
+    color: #a7140a;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+    grid-area: section;
+    
+    
+}
+
+div.noticiaprin{
+    grid-column: 1;
+    grid-row: 1/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color:#FFFFFF;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 650px;
+    height: 500px;
+   
+}
+
+.noticiaprin a{
+    text-decoration: none;
+    color: #a7140a;
+    margin-top: 10px;
+}
+
+div.noticiaseg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+div.noticiater{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 aside{
     background-color: aqua;
-    grid-column: 2;
+    grid-area: aside;
 }
 
 article{
     
     background-color: brown;
+    grid-area: article;
 }
 
-section{
-   
-    background-color: black;
-}
+
 
 footer{
 
     background-color: yellow;
-}
+    grid-
