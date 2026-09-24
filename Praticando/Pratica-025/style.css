@@ -190,6 +190,9 @@ section{
     grid-template-rows: 1fr 1fr;
     width: 100%;
     justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
     grid-area: section;
     
     
@@ -201,9 +204,12 @@ div.noticiaprin{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-     background-color:#FFFFFF;
+    background-color:#FFFFFF;
+    background: url('imagens/stf.avif');
+    background-size: cover;
+    background-position: center center;
     border: 1px solid grey;
     border-radius: 10px;
     width: 650px;
@@ -221,11 +227,13 @@ div.noticiaseg{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 
     grid-column: 2;
     grid-row: 1;
     background-color: #FFFFFF;
+    background: url('imagens/xuxa-andrea-sorvetao-jpg.avif');
+    background-size: cover;
     border: 1px solid grey;
     border-radius: 10px;
     width: 100%;
@@ -237,14 +245,17 @@ div.noticiater{
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
 
     grid-column: 2;
     grid-row: 2;
     background-color: #FFFFFF;
+    background: url('imagens/advogado.avif')no-repeat;
+    background-size: cover;
+    background-position: center center;
     border: 1px solid grey;
     border-radius: 10px;
-    width: 100%;
+    width: 350px;
     height: 100%;
 }
 
